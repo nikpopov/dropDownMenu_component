@@ -1,0 +1,36 @@
+.dropdown-menu {
+    
+}
+
+.dropdown-menu-item {
+    padding: 10px 24px !important;
+    &:hover .favourites-icon-not-selected {
+        visibility: visible;
+    }
+
+    &:hover .favourites-icon-selected {
+        visibility: visible;
+    }
+
+    &__title {
+        width: 100%;
+        
+    }
+}
+
+
+.favourites-icon-not-selected {
+    visibility: hidden;
+    opacity: 0.3;
+    margin-left: 20px;
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+.favourites-icon-selected {
+    visibility: hidden;
+    opacity: 1;
+    margin-left: 20px;
+}
